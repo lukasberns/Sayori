@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Sayori OS X.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Sayori iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Sayori.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>libsayori OS X.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>libsayori iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0BE3574217F4CC4200E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE3576317F4CC4300E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE357D817F4E4A400E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE357E417F4E4A400E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE3580817F4E5B000E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE3581617F4E5B100E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE3583C17F4E65000E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE3585617F4E65000E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE358A617F4EB4000E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0BE358C617F4EB4000E9775C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BE357F917F4E4ED00E9775C /* SYCssContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3577D17F4CCBE00E9775C /* SYCssContext.m */; };
+		0BE357FA17F4E4ED00E9775C /* SYFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3577F17F4CCBE00E9775C /* SYFontManager.m */; };
+		0BE357FB17F4E4ED00E9775C /* SYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357D217F4CFBB00E9775C /* SYLabel.m */; };
+		0BE357FC17F4E4ED00E9775C /* SYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578117F4CCBE00E9775C /* SYTextLayout.m */; };
+		0BE357FD17F4E4ED00E9775C /* SYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578317F4CCBE00E9775C /* SYTextParser.m */; };
+		0BE357FE17F4E4ED00E9775C /* SYTextRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578517F4CCBE00E9775C /* SYTextRun.m */; };
+		0BE357FF17F4E4ED00E9775C /* SYTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578717F4CCBE00E9775C /* SYTextStyle.m */; };
+		0BE3580017F4E4ED00E9775C /* SYTextSubstitutionGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578917F4CCBE00E9775C /* SYTextSubstitutionGlyph.m */; };
+		0BE3580117F4E4ED00E9775C /* NSIndexPathAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357C417F4CE3000E9775C /* NSIndexPathAddition.m */; };
+		0BE3580217F4E4ED00E9775C /* NSValueAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357C617F4CE3000E9775C /* NSValueAddition.m */; };
+		0BE3580317F4E4ED00E9775C /* UIGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357C817F4CE3000E9775C /* UIGeometry.m */; };
+		0BE3580417F4E4ED00E9775C /* UIKitFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357CA17F4CE3000E9775C /* UIKitFunction.m */; };
+		0BE3582D17F4E5ED00E9775C /* SYCssContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3577D17F4CCBE00E9775C /* SYCssContext.m */; };
+		0BE3582E17F4E5ED00E9775C /* SYFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3577F17F4CCBE00E9775C /* SYFontManager.m */; };
+		0BE3582F17F4E5ED00E9775C /* SYLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE357D217F4CFBB00E9775C /* SYLabel.m */; };
+		0BE3583017F4E5ED00E9775C /* SYTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578117F4CCBE00E9775C /* SYTextLayout.m */; };
+		0BE3583117F4E5ED00E9775C /* SYTextParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578317F4CCBE00E9775C /* SYTextParser.m */; };
+		0BE3583217F4E5ED00E9775C /* SYTextRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578517F4CCBE00E9775C /* SYTextRun.m */; };
+		0BE3583317F4E5ED00E9775C /* SYTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578717F4CCBE00E9775C /* SYTextStyle.m */; };
+		0BE3583417F4E5ED00E9775C /* SYTextSubstitutionGlyph.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3578917F4CCBE00E9775C /* SYTextSubstitutionGlyph.m */; };
+		0BE3583817F4E61900E9775C /* HMRuntimeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3583717F4E61900E9775C /* HMRuntimeUtil.m */; };
+		0BE3584417F4E65000E9775C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BE3584217F4E65000E9775C /* InfoPlist.strings */; };
+		0BE3584617F4E65000E9775C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3584517F4E65000E9775C /* main.m */; };
+		0BE3584A17F4E65000E9775C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE3584817F4E65000E9775C /* Credits.rtf */; };
+		0BE3584D17F4E65000E9775C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3584C17F4E65000E9775C /* AppDelegate.m */; };
+		0BE3585017F4E65000E9775C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BE3584E17F4E65000E9775C /* MainMenu.xib */; };
+		0BE3585217F4E65000E9775C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE3585117F4E65000E9775C /* Images.xcassets */; };
+		0BE3589E17F4EA5000E9775C /* libcss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3588C17F4EA5000E9775C /* libcss.a */; };
+		0BE3589F17F4EA5000E9775C /* libparserutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3588D17F4EA5000E9775C /* libparserutils.a */; };
+		0BE358A017F4EA5000E9775C /* libwapcaplet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3588E17F4EA5000E9775C /* libwapcaplet.a */; };
+		0BE358A117F4EA5000E9775C /* libsayori.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3589C17F4EA5000E9775C /* libsayori.a */; };
+		0BE358B117F4EB4000E9775C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BE358AF17F4EB4000E9775C /* InfoPlist.strings */; };
+		0BE358B317F4EB4000E9775C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE358B217F4EB4000E9775C /* main.m */; };
+		0BE358B717F4EB4000E9775C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE358B617F4EB4000E9775C /* AppDelegate.m */; };
+		0BE358BA17F4EB4000E9775C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE358B817F4EB4000E9775C /* Main_iPhone.storyboard */; };
+		0BE358BD17F4EB4000E9775C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE358BB17F4EB4000E9775C /* Main_iPad.storyboard */; };
+		0BE358C017F4EB4000E9775C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE358BF17F4EB4000E9775C /* ViewController.m */; };
+		0BE358C217F4EB4000E9775C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE358C117F4EB4000E9775C /* Images.xcassets */; };
+		0BE358DC17F4EB8400E9775C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE358DB17F4EB8400E9775C /* Cocoa.framework */; };
+		0BE358DF17F4EB9E00E9775C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE358DE17F4EB9E00E9775C /* libiconv.dylib */; };
+		0BE3591B17F4ED1E00E9775C /* libparserutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3590417F4ED1E00E9775C /* libparserutils.a */; };
+		0BE3591C17F4ED1E00E9775C /* libwapcaplet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3590517F4ED1E00E9775C /* libwapcaplet.a */; };
+		0BE3591D17F4ED1E00E9775C /* libcss.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3590717F4ED1E00E9775C /* libcss.a */; };
+		0BE3593717F4EFC800E9775C /* HMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592217F4EFC800E9775C /* HMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593817F4EFC800E9775C /* HMXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592517F4EFC800E9775C /* HMXMLDocument.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593917F4EFC800E9775C /* HMXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592717F4EFC800E9775C /* HMXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593A17F4EFC800E9775C /* HMXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592917F4EFC800E9775C /* HMXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593B17F4EFC800E9775C /* HMXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592B17F4EFC800E9775C /* HMXMLReader.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593C17F4EFC800E9775C /* HMXMLRPCDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3592E17F4EFC800E9775C /* HMXMLRPCDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593D17F4EFC800E9775C /* HMXMLRPCEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3593017F4EFC800E9775C /* HMXMLRPCEncoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593E17F4EFC800E9775C /* HMXMLRPCRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3593217F4EFC800E9775C /* HMXMLRPCRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3593F17F4EFC800E9775C /* HMXMLRPCStreamDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3593417F4EFC800E9775C /* HMXMLRPCStreamDecoder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3594017F4EFC800E9775C /* HMXMLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE3593617F4EFC800E9775C /* HMXMLUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0BE3594217F4F0AB00E9775C /* libsayori.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594117F4F0AB00E9775C /* libsayori.a */; };
+		0BE3594417F4F12B00E9775C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594317F4F12B00E9775C /* libiconv.dylib */; };
+		0BE3594717F4F14500E9775C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594617F4F14500E9775C /* libxml2.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BE3580717F4E5B000E9775C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BE3577C17F4CCBE00E9775C /* SYCssContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCssContext.h; sourceTree = "<group>"; };
+		0BE3577D17F4CCBE00E9775C /* SYCssContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYCssContext.m; sourceTree = "<group>"; };
+		0BE3577E17F4CCBE00E9775C /* SYFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFontManager.h; sourceTree = "<group>"; };
+		0BE3577F17F4CCBE00E9775C /* SYFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYFontManager.m; sourceTree = "<group>"; };
+		0BE3578017F4CCBE00E9775C /* SYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextLayout.h; sourceTree = "<group>"; };
+		0BE3578117F4CCBE00E9775C /* SYTextLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTextLayout.m; sourceTree = "<group>"; };
+		0BE3578217F4CCBE00E9775C /* SYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextParser.h; sourceTree = "<group>"; };
+		0BE3578317F4CCBE00E9775C /* SYTextParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTextParser.m; sourceTree = "<group>"; };
+		0BE3578417F4CCBE00E9775C /* SYTextRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextRun.h; sourceTree = "<group>"; };
+		0BE3578517F4CCBE00E9775C /* SYTextRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTextRun.m; sourceTree = "<group>"; };
+		0BE3578617F4CCBE00E9775C /* SYTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextStyle.h; sourceTree = "<group>"; };
+		0BE3578717F4CCBE00E9775C /* SYTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTextStyle.m; sourceTree = "<group>"; };
+		0BE3578817F4CCBE00E9775C /* SYTextSubstitutionGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextSubstitutionGlyph.h; sourceTree = "<group>"; };
+		0BE3578917F4CCBE00E9775C /* SYTextSubstitutionGlyph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYTextSubstitutionGlyph.m; sourceTree = "<group>"; };
+		0BE3579417F4CD2500E9775C /* computed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = computed.h; sourceTree = "<group>"; };
+		0BE3579517F4CD2500E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE3579617F4CD2500E9775C /* font_face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_face.h; sourceTree = "<group>"; };
+		0BE3579717F4CD2500E9775C /* fpmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpmath.h; sourceTree = "<group>"; };
+		0BE3579817F4CD2500E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE3579917F4CD2500E9775C /* hint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hint.h; sourceTree = "<group>"; };
+		0BE3579A17F4CD2500E9775C /* libcss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libcss.h; sourceTree = "<group>"; };
+		0BE3579B17F4CD2500E9775C /* properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = properties.h; sourceTree = "<group>"; };
+		0BE3579C17F4CD2500E9775C /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = select.h; sourceTree = "<group>"; };
+		0BE3579D17F4CD2500E9775C /* stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stylesheet.h; sourceTree = "<group>"; };
+		0BE3579E17F4CD2500E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE357A017F4CD2500E9775C /* libwapcaplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwapcaplet.h; sourceTree = "<group>"; };
+		0BE357A317F4CD2500E9775C /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		0BE357A417F4CD2500E9775C /* mibenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mibenum.h; sourceTree = "<group>"; };
+		0BE357A517F4CD2500E9775C /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		0BE357A617F4CD2500E9775C /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		0BE357A717F4CD2500E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE357A817F4CD2500E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE357AA17F4CD2500E9775C /* inputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputstream.h; sourceTree = "<group>"; };
+		0BE357AB17F4CD2500E9775C /* parserutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parserutils.h; sourceTree = "<group>"; };
+		0BE357AC17F4CD2500E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE357AE17F4CD2500E9775C /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		0BE357AF17F4CD2500E9775C /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		0BE357B017F4CD2500E9775C /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		0BE357B317F4CD2500E9775C /* libcss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcss.a; sourceTree = "<group>"; };
+		0BE357B417F4CD2500E9775C /* libparserutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libparserutils.a; sourceTree = "<group>"; };
+		0BE357B517F4CD2500E9775C /* libwapcaplet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwapcaplet.a; sourceTree = "<group>"; };
+		0BE357B717F4CD2500E9775C /* libcss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcss.a; sourceTree = "<group>"; };
+		0BE357B817F4CD2500E9775C /* libparserutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libparserutils.a; sourceTree = "<group>"; };
+		0BE357B917F4CD2500E9775C /* libwapcaplet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwapcaplet.a; sourceTree = "<group>"; };
+		0BE357C117F4CE3000E9775C /* HMUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMUtil.h; sourceTree = "<group>"; };
+		0BE357C317F4CE3000E9775C /* NSIndexPathAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSIndexPathAddition.h; sourceTree = "<group>"; };
+		0BE357C417F4CE3000E9775C /* NSIndexPathAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSIndexPathAddition.m; sourceTree = "<group>"; };
+		0BE357C517F4CE3000E9775C /* NSValueAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSValueAddition.h; sourceTree = "<group>"; };
+		0BE357C617F4CE3000E9775C /* NSValueAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSValueAddition.m; sourceTree = "<group>"; };
+		0BE357C717F4CE3000E9775C /* UIGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIGeometry.h; sourceTree = "<group>"; };
+		0BE357C817F4CE3000E9775C /* UIGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIGeometry.m; sourceTree = "<group>"; };
+		0BE357C917F4CE3000E9775C /* UIKitFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitFunction.h; sourceTree = "<group>"; };
+		0BE357CA17F4CE3000E9775C /* UIKitFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitFunction.m; sourceTree = "<group>"; };
+		0BE357D117F4CFBB00E9775C /* SYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLabel.h; sourceTree = "<group>"; };
+		0BE357D217F4CFBB00E9775C /* SYLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYLabel.m; sourceTree = "<group>"; };
+		0BE357D417F4D03000E9775C /* Sayori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sayori.h; sourceTree = "<group>"; };
+		0BE357D917F4E4A400E9775C /* libsayori.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsayori.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE357DD17F4E4A400E9775C /* libsayori OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsayori OS X-Prefix.pch"; sourceTree = "<group>"; };
+		0BE3580917F4E5B000E9775C /* libsayori.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsayori.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE3580E17F4E5B100E9775C /* libsayori iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libsayori iOS-Prefix.pch"; sourceTree = "<group>"; };
+		0BE3583617F4E61900E9775C /* HMRuntimeUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMRuntimeUtil.h; sourceTree = "<group>"; };
+		0BE3583717F4E61900E9775C /* HMRuntimeUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMRuntimeUtil.m; sourceTree = "<group>"; };
+		0BE3583D17F4E65000E9775C /* Sayori.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sayori.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE3584117F4E65000E9775C /* Sayori OS X-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sayori OS X-Info.plist"; sourceTree = "<group>"; };
+		0BE3584317F4E65000E9775C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BE3584517F4E65000E9775C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BE3584717F4E65000E9775C /* Sayori OS X-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sayori OS X-Prefix.pch"; sourceTree = "<group>"; };
+		0BE3584917F4E65000E9775C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0BE3584B17F4E65000E9775C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BE3584C17F4E65000E9775C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BE3584F17F4E65000E9775C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BE3585117F4E65000E9775C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BE3586E17F4EA5000E9775C /* computed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = computed.h; sourceTree = "<group>"; };
+		0BE3586F17F4EA5000E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE3587017F4EA5000E9775C /* font_face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_face.h; sourceTree = "<group>"; };
+		0BE3587117F4EA5000E9775C /* fpmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpmath.h; sourceTree = "<group>"; };
+		0BE3587217F4EA5000E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE3587317F4EA5000E9775C /* hint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hint.h; sourceTree = "<group>"; };
+		0BE3587417F4EA5000E9775C /* libcss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libcss.h; sourceTree = "<group>"; };
+		0BE3587517F4EA5000E9775C /* properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = properties.h; sourceTree = "<group>"; };
+		0BE3587617F4EA5000E9775C /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = select.h; sourceTree = "<group>"; };
+		0BE3587717F4EA5000E9775C /* stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stylesheet.h; sourceTree = "<group>"; };
+		0BE3587817F4EA5000E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE3587A17F4EA5000E9775C /* libwapcaplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwapcaplet.h; sourceTree = "<group>"; };
+		0BE3587D17F4EA5000E9775C /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		0BE3587E17F4EA5000E9775C /* mibenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mibenum.h; sourceTree = "<group>"; };
+		0BE3587F17F4EA5000E9775C /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		0BE3588017F4EA5000E9775C /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		0BE3588117F4EA5000E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE3588217F4EA5000E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE3588417F4EA5000E9775C /* inputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputstream.h; sourceTree = "<group>"; };
+		0BE3588517F4EA5000E9775C /* parserutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parserutils.h; sourceTree = "<group>"; };
+		0BE3588617F4EA5000E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE3588817F4EA5000E9775C /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		0BE3588917F4EA5000E9775C /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		0BE3588A17F4EA5000E9775C /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		0BE3588C17F4EA5000E9775C /* libcss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcss.a; sourceTree = "<group>"; };
+		0BE3588D17F4EA5000E9775C /* libparserutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libparserutils.a; sourceTree = "<group>"; };
+		0BE3588E17F4EA5000E9775C /* libwapcaplet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwapcaplet.a; sourceTree = "<group>"; };
+		0BE3589117F4EA5000E9775C /* Sayori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sayori.h; sourceTree = "<group>"; };
+		0BE3589217F4EA5000E9775C /* SYCssContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCssContext.h; sourceTree = "<group>"; };
+		0BE3589317F4EA5000E9775C /* SYFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFontManager.h; sourceTree = "<group>"; };
+		0BE3589417F4EA5000E9775C /* SYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLabel.h; sourceTree = "<group>"; };
+		0BE3589517F4EA5000E9775C /* SYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextLayout.h; sourceTree = "<group>"; };
+		0BE3589617F4EA5000E9775C /* SYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextParser.h; sourceTree = "<group>"; };
+		0BE3589717F4EA5000E9775C /* SYTextRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextRun.h; sourceTree = "<group>"; };
+		0BE3589817F4EA5000E9775C /* SYTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextStyle.h; sourceTree = "<group>"; };
+		0BE3589917F4EA5000E9775C /* SYTextSubstitutionGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextSubstitutionGlyph.h; sourceTree = "<group>"; };
+		0BE3589C17F4EA5000E9775C /* libsayori.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsayori.a; sourceTree = "<group>"; };
+		0BE358A717F4EB4000E9775C /* Sayori iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sayori iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE358AE17F4EB4000E9775C /* Sayori iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sayori iOS-Info.plist"; sourceTree = "<group>"; };
+		0BE358B017F4EB4000E9775C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BE358B217F4EB4000E9775C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BE358B417F4EB4000E9775C /* Sayori iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sayori iOS-Prefix.pch"; sourceTree = "<group>"; };
+		0BE358B517F4EB4000E9775C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BE358B617F4EB4000E9775C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BE358B917F4EB4000E9775C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0BE358BC17F4EB4000E9775C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0BE358BE17F4EB4000E9775C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BE358BF17F4EB4000E9775C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BE358C117F4EB4000E9775C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BE358DB17F4EB8400E9775C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0BE358DE17F4EB9E00E9775C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		0BE358E417F4ED1D00E9775C /* computed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = computed.h; sourceTree = "<group>"; };
+		0BE358E517F4ED1D00E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE358E617F4ED1D00E9775C /* font_face.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font_face.h; sourceTree = "<group>"; };
+		0BE358E717F4ED1D00E9775C /* fpmath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fpmath.h; sourceTree = "<group>"; };
+		0BE358E817F4ED1D00E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE358E917F4ED1D00E9775C /* hint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hint.h; sourceTree = "<group>"; };
+		0BE358EA17F4ED1D00E9775C /* libcss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libcss.h; sourceTree = "<group>"; };
+		0BE358EB17F4ED1D00E9775C /* properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = properties.h; sourceTree = "<group>"; };
+		0BE358EC17F4ED1D00E9775C /* select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = select.h; sourceTree = "<group>"; };
+		0BE358ED17F4ED1D00E9775C /* stylesheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stylesheet.h; sourceTree = "<group>"; };
+		0BE358EE17F4ED1D00E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE358F017F4ED1D00E9775C /* libwapcaplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libwapcaplet.h; sourceTree = "<group>"; };
+		0BE358F317F4ED1E00E9775C /* codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = codec.h; sourceTree = "<group>"; };
+		0BE358F417F4ED1E00E9775C /* mibenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mibenum.h; sourceTree = "<group>"; };
+		0BE358F517F4ED1E00E9775C /* utf16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf16.h; sourceTree = "<group>"; };
+		0BE358F617F4ED1E00E9775C /* utf8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utf8.h; sourceTree = "<group>"; };
+		0BE358F717F4ED1E00E9775C /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		0BE358F817F4ED1E00E9775C /* functypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functypes.h; sourceTree = "<group>"; };
+		0BE358FA17F4ED1E00E9775C /* inputstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inputstream.h; sourceTree = "<group>"; };
+		0BE358FB17F4ED1E00E9775C /* parserutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parserutils.h; sourceTree = "<group>"; };
+		0BE358FC17F4ED1E00E9775C /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		0BE358FE17F4ED1E00E9775C /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		0BE358FF17F4ED1E00E9775C /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		0BE3590017F4ED1E00E9775C /* vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vector.h; sourceTree = "<group>"; };
+		0BE3590317F4ED1E00E9775C /* libcss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcss.a; sourceTree = "<group>"; };
+		0BE3590417F4ED1E00E9775C /* libparserutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libparserutils.a; sourceTree = "<group>"; };
+		0BE3590517F4ED1E00E9775C /* libwapcaplet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwapcaplet.a; sourceTree = "<group>"; };
+		0BE3590717F4ED1E00E9775C /* libcss.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcss.a; sourceTree = "<group>"; };
+		0BE3590817F4ED1E00E9775C /* libparserutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libparserutils.a; sourceTree = "<group>"; };
+		0BE3590917F4ED1E00E9775C /* libwapcaplet.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libwapcaplet.a; sourceTree = "<group>"; };
+		0BE3590C17F4ED1E00E9775C /* Sayori.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sayori.h; sourceTree = "<group>"; };
+		0BE3590D17F4ED1E00E9775C /* SYCssContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYCssContext.h; sourceTree = "<group>"; };
+		0BE3590E17F4ED1E00E9775C /* SYFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYFontManager.h; sourceTree = "<group>"; };
+		0BE3590F17F4ED1E00E9775C /* SYLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYLabel.h; sourceTree = "<group>"; };
+		0BE3591017F4ED1E00E9775C /* SYTextLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextLayout.h; sourceTree = "<group>"; };
+		0BE3591117F4ED1E00E9775C /* SYTextParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextParser.h; sourceTree = "<group>"; };
+		0BE3591217F4ED1E00E9775C /* SYTextRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextRun.h; sourceTree = "<group>"; };
+		0BE3591317F4ED1E00E9775C /* SYTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextStyle.h; sourceTree = "<group>"; };
+		0BE3591417F4ED1E00E9775C /* SYTextSubstitutionGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYTextSubstitutionGlyph.h; sourceTree = "<group>"; };
+		0BE3592117F4EFC800E9775C /* HMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMBase64.h; sourceTree = "<group>"; };
+		0BE3592217F4EFC800E9775C /* HMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMBase64.m; sourceTree = "<group>"; };
+		0BE3592317F4EFC800E9775C /* HMXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXML.h; sourceTree = "<group>"; };
+		0BE3592417F4EFC800E9775C /* HMXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLDocument.h; sourceTree = "<group>"; };
+		0BE3592517F4EFC800E9775C /* HMXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLDocument.m; sourceTree = "<group>"; };
+		0BE3592617F4EFC800E9775C /* HMXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLElement.h; sourceTree = "<group>"; };
+		0BE3592717F4EFC800E9775C /* HMXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLElement.m; sourceTree = "<group>"; };
+		0BE3592817F4EFC800E9775C /* HMXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLNode.h; sourceTree = "<group>"; };
+		0BE3592917F4EFC800E9775C /* HMXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLNode.m; sourceTree = "<group>"; };
+		0BE3592A17F4EFC800E9775C /* HMXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLReader.h; sourceTree = "<group>"; };
+		0BE3592B17F4EFC800E9775C /* HMXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLReader.m; sourceTree = "<group>"; };
+		0BE3592C17F4EFC800E9775C /* HMXMLRPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLRPC.h; sourceTree = "<group>"; };
+		0BE3592D17F4EFC800E9775C /* HMXMLRPCDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLRPCDecoder.h; sourceTree = "<group>"; };
+		0BE3592E17F4EFC800E9775C /* HMXMLRPCDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLRPCDecoder.m; sourceTree = "<group>"; };
+		0BE3592F17F4EFC800E9775C /* HMXMLRPCEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLRPCEncoder.h; sourceTree = "<group>"; };
+		0BE3593017F4EFC800E9775C /* HMXMLRPCEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLRPCEncoder.m; sourceTree = "<group>"; };
+		0BE3593117F4EFC800E9775C /* HMXMLRPCRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLRPCRequest.h; sourceTree = "<group>"; };
+		0BE3593217F4EFC800E9775C /* HMXMLRPCRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLRPCRequest.m; sourceTree = "<group>"; };
+		0BE3593317F4EFC800E9775C /* HMXMLRPCStreamDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLRPCStreamDecoder.h; sourceTree = "<group>"; };
+		0BE3593417F4EFC800E9775C /* HMXMLRPCStreamDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLRPCStreamDecoder.m; sourceTree = "<group>"; };
+		0BE3593517F4EFC800E9775C /* HMXMLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMXMLUtilities.h; sourceTree = "<group>"; };
+		0BE3593617F4EFC800E9775C /* HMXMLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMXMLUtilities.m; sourceTree = "<group>"; };
+		0BE3594117F4F0AB00E9775C /* libsayori.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsayori.a; sourceTree = "<group>"; };
+		0BE3594317F4F12B00E9775C /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
+		0BE3594617F4F14500E9775C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libxml2.dylib; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE357D617F4E4A400E9775C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE3580617F4E5B000E9775C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE3583A17F4E65000E9775C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE358DF17F4EB9E00E9775C /* libiconv.dylib in Frameworks */,
+				0BE358DC17F4EB8400E9775C /* Cocoa.framework in Frameworks */,
+				0BE3589F17F4EA5000E9775C /* libparserutils.a in Frameworks */,
+				0BE358A017F4EA5000E9775C /* libwapcaplet.a in Frameworks */,
+				0BE3589E17F4EA5000E9775C /* libcss.a in Frameworks */,
+				0BE358A117F4EA5000E9775C /* libsayori.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE358A417F4EB4000E9775C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE3594717F4F14500E9775C /* libxml2.dylib in Frameworks */,
+				0BE3594417F4F12B00E9775C /* libiconv.dylib in Frameworks */,
+				0BE3594217F4F0AB00E9775C /* libsayori.a in Frameworks */,
+				0BE3591C17F4ED1E00E9775C /* libwapcaplet.a in Frameworks */,
+				0BE3591B17F4ED1E00E9775C /* libparserutils.a in Frameworks */,
+				0BE3591D17F4ED1E00E9775C /* libcss.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE3573A17F4CC4200E9775C = {
+			isa = PBXGroup;
+			children = (
+				0BE3577A17F4CCBE00E9775C /* source */,
+				0BE357DB17F4E4A400E9775C /* libsayori OS X */,
+				0BE3580C17F4E5B000E9775C /* libsayori iOS */,
+				0BE3583F17F4E65000E9775C /* Sayori OS X */,
+				0BE358AC17F4EB4000E9775C /* Sayori iOS */,
+				0BE3574417F4CC4200E9775C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BE3574417F4CC4200E9775C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357D917F4E4A400E9775C /* libsayori.a */,
+				0BE3580917F4E5B000E9775C /* libsayori.a */,
+				0BE3583D17F4E65000E9775C /* Sayori.app */,
+				0BE358A717F4EB4000E9775C /* Sayori iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BE3577A17F4CCBE00E9775C /* source */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3577B17F4CCBE00E9775C /* Sayori */,
+				0BE3592017F4EFC800E9775C /* HMXML */,
+				0BE357C017F4CE3000E9775C /* HMUtil */,
+				0BE3579117F4CD2500E9775C /* libcss */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		0BE3577B17F4CCBE00E9775C /* Sayori */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357D417F4D03000E9775C /* Sayori.h */,
+				0BE3577C17F4CCBE00E9775C /* SYCssContext.h */,
+				0BE3577D17F4CCBE00E9775C /* SYCssContext.m */,
+				0BE3577E17F4CCBE00E9775C /* SYFontManager.h */,
+				0BE3577F17F4CCBE00E9775C /* SYFontManager.m */,
+				0BE357D117F4CFBB00E9775C /* SYLabel.h */,
+				0BE357D217F4CFBB00E9775C /* SYLabel.m */,
+				0BE3578017F4CCBE00E9775C /* SYTextLayout.h */,
+				0BE3578117F4CCBE00E9775C /* SYTextLayout.m */,
+				0BE3578217F4CCBE00E9775C /* SYTextParser.h */,
+				0BE3578317F4CCBE00E9775C /* SYTextParser.m */,
+				0BE3578417F4CCBE00E9775C /* SYTextRun.h */,
+				0BE3578517F4CCBE00E9775C /* SYTextRun.m */,
+				0BE3578617F4CCBE00E9775C /* SYTextStyle.h */,
+				0BE3578717F4CCBE00E9775C /* SYTextStyle.m */,
+				0BE3578817F4CCBE00E9775C /* SYTextSubstitutionGlyph.h */,
+				0BE3578917F4CCBE00E9775C /* SYTextSubstitutionGlyph.m */,
+			);
+			path = Sayori;
+			sourceTree = "<group>";
+		};
+		0BE3579117F4CD2500E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3579217F4CD2500E9775C /* include */,
+				0BE357B117F4CD2500E9775C /* lib */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE3579217F4CD2500E9775C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3579317F4CD2500E9775C /* libcss */,
+				0BE3579F17F4CD2500E9775C /* libwapcaplet */,
+				0BE357A117F4CD2500E9775C /* parserutils */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0BE3579317F4CD2500E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3579417F4CD2500E9775C /* computed.h */,
+				0BE3579517F4CD2500E9775C /* errors.h */,
+				0BE3579617F4CD2500E9775C /* font_face.h */,
+				0BE3579717F4CD2500E9775C /* fpmath.h */,
+				0BE3579817F4CD2500E9775C /* functypes.h */,
+				0BE3579917F4CD2500E9775C /* hint.h */,
+				0BE3579A17F4CD2500E9775C /* libcss.h */,
+				0BE3579B17F4CD2500E9775C /* properties.h */,
+				0BE3579C17F4CD2500E9775C /* select.h */,
+				0BE3579D17F4CD2500E9775C /* stylesheet.h */,
+				0BE3579E17F4CD2500E9775C /* types.h */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE3579F17F4CD2500E9775C /* libwapcaplet */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357A017F4CD2500E9775C /* libwapcaplet.h */,
+			);
+			path = libwapcaplet;
+			sourceTree = "<group>";
+		};
+		0BE357A117F4CD2500E9775C /* parserutils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357A217F4CD2500E9775C /* charset */,
+				0BE357A717F4CD2500E9775C /* errors.h */,
+				0BE357A817F4CD2500E9775C /* functypes.h */,
+				0BE357A917F4CD2500E9775C /* input */,
+				0BE357AB17F4CD2500E9775C /* parserutils.h */,
+				0BE357AC17F4CD2500E9775C /* types.h */,
+				0BE357AD17F4CD2500E9775C /* utils */,
+			);
+			path = parserutils;
+			sourceTree = "<group>";
+		};
+		0BE357A217F4CD2500E9775C /* charset */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357A317F4CD2500E9775C /* codec.h */,
+				0BE357A417F4CD2500E9775C /* mibenum.h */,
+				0BE357A517F4CD2500E9775C /* utf16.h */,
+				0BE357A617F4CD2500E9775C /* utf8.h */,
+			);
+			path = charset;
+			sourceTree = "<group>";
+		};
+		0BE357A917F4CD2500E9775C /* input */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357AA17F4CD2500E9775C /* inputstream.h */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		0BE357AD17F4CD2500E9775C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357AE17F4CD2500E9775C /* buffer.h */,
+				0BE357AF17F4CD2500E9775C /* stack.h */,
+				0BE357B017F4CD2500E9775C /* vector.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		0BE357B117F4CD2500E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357B217F4CD2500E9775C /* iphoneos */,
+				0BE357B617F4CD2500E9775C /* iphonesimulator */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE357B217F4CD2500E9775C /* iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357B317F4CD2500E9775C /* libcss.a */,
+				0BE357B417F4CD2500E9775C /* libparserutils.a */,
+				0BE357B517F4CD2500E9775C /* libwapcaplet.a */,
+			);
+			path = iphoneos;
+			sourceTree = "<group>";
+		};
+		0BE357B617F4CD2500E9775C /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357B717F4CD2500E9775C /* libcss.a */,
+				0BE357B817F4CD2500E9775C /* libparserutils.a */,
+				0BE357B917F4CD2500E9775C /* libwapcaplet.a */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		0BE357C017F4CE3000E9775C /* HMUtil */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357C117F4CE3000E9775C /* HMUtil.h */,
+				0BE3583517F4E61900E9775C /* iOS */,
+				0BE357C217F4CE3000E9775C /* OSX */,
+			);
+			path = HMUtil;
+			sourceTree = "<group>";
+		};
+		0BE357C217F4CE3000E9775C /* OSX */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357C317F4CE3000E9775C /* NSIndexPathAddition.h */,
+				0BE357C417F4CE3000E9775C /* NSIndexPathAddition.m */,
+				0BE357C517F4CE3000E9775C /* NSValueAddition.h */,
+				0BE357C617F4CE3000E9775C /* NSValueAddition.m */,
+				0BE357C717F4CE3000E9775C /* UIGeometry.h */,
+				0BE357C817F4CE3000E9775C /* UIGeometry.m */,
+				0BE357C917F4CE3000E9775C /* UIKitFunction.h */,
+				0BE357CA17F4CE3000E9775C /* UIKitFunction.m */,
+			);
+			path = OSX;
+			sourceTree = "<group>";
+		};
+		0BE357DB17F4E4A400E9775C /* libsayori OS X */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357DC17F4E4A400E9775C /* Supporting Files */,
+			);
+			path = "libsayori OS X";
+			sourceTree = "<group>";
+		};
+		0BE357DC17F4E4A400E9775C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE357DD17F4E4A400E9775C /* libsayori OS X-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BE3580C17F4E5B000E9775C /* libsayori iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3580D17F4E5B100E9775C /* Supporting Files */,
+			);
+			path = "libsayori iOS";
+			sourceTree = "<group>";
+		};
+		0BE3580D17F4E5B100E9775C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3580E17F4E5B100E9775C /* libsayori iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BE3583517F4E61900E9775C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3583617F4E61900E9775C /* HMRuntimeUtil.h */,
+				0BE3583717F4E61900E9775C /* HMRuntimeUtil.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		0BE3583F17F4E65000E9775C /* Sayori OS X */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3584B17F4E65000E9775C /* AppDelegate.h */,
+				0BE3584C17F4E65000E9775C /* AppDelegate.m */,
+				0BE3584E17F4E65000E9775C /* MainMenu.xib */,
+				0BE3585117F4E65000E9775C /* Images.xcassets */,
+				0BE3586A17F4EA5000E9775C /* lib */,
+				0BE358DD17F4EB8B00E9775C /* Frameworks */,
+				0BE3584017F4E65000E9775C /* Supporting Files */,
+			);
+			path = "Sayori OS X";
+			sourceTree = "<group>";
+		};
+		0BE3584017F4E65000E9775C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3584117F4E65000E9775C /* Sayori OS X-Info.plist */,
+				0BE3584217F4E65000E9775C /* InfoPlist.strings */,
+				0BE3584517F4E65000E9775C /* main.m */,
+				0BE3584717F4E65000E9775C /* Sayori OS X-Prefix.pch */,
+				0BE3584817F4E65000E9775C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BE3586A17F4EA5000E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3586B17F4EA5000E9775C /* libcss */,
+				0BE3588F17F4EA5000E9775C /* libsayori */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE3586B17F4EA5000E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3586C17F4EA5000E9775C /* include */,
+				0BE3588B17F4EA5000E9775C /* lib */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE3586C17F4EA5000E9775C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3586D17F4EA5000E9775C /* libcss */,
+				0BE3587917F4EA5000E9775C /* libwapcaplet */,
+				0BE3587B17F4EA5000E9775C /* parserutils */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0BE3586D17F4EA5000E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3586E17F4EA5000E9775C /* computed.h */,
+				0BE3586F17F4EA5000E9775C /* errors.h */,
+				0BE3587017F4EA5000E9775C /* font_face.h */,
+				0BE3587117F4EA5000E9775C /* fpmath.h */,
+				0BE3587217F4EA5000E9775C /* functypes.h */,
+				0BE3587317F4EA5000E9775C /* hint.h */,
+				0BE3587417F4EA5000E9775C /* libcss.h */,
+				0BE3587517F4EA5000E9775C /* properties.h */,
+				0BE3587617F4EA5000E9775C /* select.h */,
+				0BE3587717F4EA5000E9775C /* stylesheet.h */,
+				0BE3587817F4EA5000E9775C /* types.h */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE3587917F4EA5000E9775C /* libwapcaplet */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3587A17F4EA5000E9775C /* libwapcaplet.h */,
+			);
+			path = libwapcaplet;
+			sourceTree = "<group>";
+		};
+		0BE3587B17F4EA5000E9775C /* parserutils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3587C17F4EA5000E9775C /* charset */,
+				0BE3588117F4EA5000E9775C /* errors.h */,
+				0BE3588217F4EA5000E9775C /* functypes.h */,
+				0BE3588317F4EA5000E9775C /* input */,
+				0BE3588517F4EA5000E9775C /* parserutils.h */,
+				0BE3588617F4EA5000E9775C /* types.h */,
+				0BE3588717F4EA5000E9775C /* utils */,
+			);
+			path = parserutils;
+			sourceTree = "<group>";
+		};
+		0BE3587C17F4EA5000E9775C /* charset */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3587D17F4EA5000E9775C /* codec.h */,
+				0BE3587E17F4EA5000E9775C /* mibenum.h */,
+				0BE3587F17F4EA5000E9775C /* utf16.h */,
+				0BE3588017F4EA5000E9775C /* utf8.h */,
+			);
+			path = charset;
+			sourceTree = "<group>";
+		};
+		0BE3588317F4EA5000E9775C /* input */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3588417F4EA5000E9775C /* inputstream.h */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		0BE3588717F4EA5000E9775C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3588817F4EA5000E9775C /* buffer.h */,
+				0BE3588917F4EA5000E9775C /* stack.h */,
+				0BE3588A17F4EA5000E9775C /* vector.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		0BE3588B17F4EA5000E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3588C17F4EA5000E9775C /* libcss.a */,
+				0BE3588D17F4EA5000E9775C /* libparserutils.a */,
+				0BE3588E17F4EA5000E9775C /* libwapcaplet.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE3588F17F4EA5000E9775C /* libsayori */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3589017F4EA5000E9775C /* include */,
+				0BE3589A17F4EA5000E9775C /* lib */,
+			);
+			path = libsayori;
+			sourceTree = "<group>";
+		};
+		0BE3589017F4EA5000E9775C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3589117F4EA5000E9775C /* Sayori.h */,
+				0BE3589217F4EA5000E9775C /* SYCssContext.h */,
+				0BE3589317F4EA5000E9775C /* SYFontManager.h */,
+				0BE3589417F4EA5000E9775C /* SYLabel.h */,
+				0BE3589517F4EA5000E9775C /* SYTextLayout.h */,
+				0BE3589617F4EA5000E9775C /* SYTextParser.h */,
+				0BE3589717F4EA5000E9775C /* SYTextRun.h */,
+				0BE3589817F4EA5000E9775C /* SYTextStyle.h */,
+				0BE3589917F4EA5000E9775C /* SYTextSubstitutionGlyph.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0BE3589A17F4EA5000E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3589B17F4EA5000E9775C /* Debug */,
+				0BE3589D17F4EA5000E9775C /* Release */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE3589B17F4EA5000E9775C /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3589C17F4EA5000E9775C /* libsayori.a */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		0BE3589D17F4EA5000E9775C /* Release */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Release;
+			sourceTree = "<group>";
+		};
+		0BE358AC17F4EB4000E9775C /* Sayori iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358B517F4EB4000E9775C /* AppDelegate.h */,
+				0BE358B617F4EB4000E9775C /* AppDelegate.m */,
+				0BE358BE17F4EB4000E9775C /* ViewController.h */,
+				0BE358BF17F4EB4000E9775C /* ViewController.m */,
+				0BE358B817F4EB4000E9775C /* Main_iPhone.storyboard */,
+				0BE358BB17F4EB4000E9775C /* Main_iPad.storyboard */,
+				0BE358C117F4EB4000E9775C /* Images.xcassets */,
+				0BE358E017F4ED1D00E9775C /* lib */,
+				0BE3594517F4F13300E9775C /* Frameworks */,
+				0BE358AD17F4EB4000E9775C /* Supporting Files */,
+			);
+			path = "Sayori iOS";
+			sourceTree = "<group>";
+		};
+		0BE358AD17F4EB4000E9775C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358AE17F4EB4000E9775C /* Sayori iOS-Info.plist */,
+				0BE358AF17F4EB4000E9775C /* InfoPlist.strings */,
+				0BE358B217F4EB4000E9775C /* main.m */,
+				0BE358B417F4EB4000E9775C /* Sayori iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BE358DD17F4EB8B00E9775C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358DB17F4EB8400E9775C /* Cocoa.framework */,
+				0BE358DE17F4EB9E00E9775C /* libiconv.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BE358E017F4ED1D00E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358E117F4ED1D00E9775C /* libcss */,
+				0BE3590A17F4ED1E00E9775C /* libsayori */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE358E117F4ED1D00E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358E217F4ED1D00E9775C /* include */,
+				0BE3590117F4ED1E00E9775C /* lib */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE358E217F4ED1D00E9775C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358E317F4ED1D00E9775C /* libcss */,
+				0BE358EF17F4ED1D00E9775C /* libwapcaplet */,
+				0BE358F117F4ED1D00E9775C /* parserutils */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0BE358E317F4ED1D00E9775C /* libcss */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358E417F4ED1D00E9775C /* computed.h */,
+				0BE358E517F4ED1D00E9775C /* errors.h */,
+				0BE358E617F4ED1D00E9775C /* font_face.h */,
+				0BE358E717F4ED1D00E9775C /* fpmath.h */,
+				0BE358E817F4ED1D00E9775C /* functypes.h */,
+				0BE358E917F4ED1D00E9775C /* hint.h */,
+				0BE358EA17F4ED1D00E9775C /* libcss.h */,
+				0BE358EB17F4ED1D00E9775C /* properties.h */,
+				0BE358EC17F4ED1D00E9775C /* select.h */,
+				0BE358ED17F4ED1D00E9775C /* stylesheet.h */,
+				0BE358EE17F4ED1D00E9775C /* types.h */,
+			);
+			path = libcss;
+			sourceTree = "<group>";
+		};
+		0BE358EF17F4ED1D00E9775C /* libwapcaplet */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358F017F4ED1D00E9775C /* libwapcaplet.h */,
+			);
+			path = libwapcaplet;
+			sourceTree = "<group>";
+		};
+		0BE358F117F4ED1D00E9775C /* parserutils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358F217F4ED1D00E9775C /* charset */,
+				0BE358F717F4ED1E00E9775C /* errors.h */,
+				0BE358F817F4ED1E00E9775C /* functypes.h */,
+				0BE358F917F4ED1E00E9775C /* input */,
+				0BE358FB17F4ED1E00E9775C /* parserutils.h */,
+				0BE358FC17F4ED1E00E9775C /* types.h */,
+				0BE358FD17F4ED1E00E9775C /* utils */,
+			);
+			path = parserutils;
+			sourceTree = "<group>";
+		};
+		0BE358F217F4ED1D00E9775C /* charset */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358F317F4ED1E00E9775C /* codec.h */,
+				0BE358F417F4ED1E00E9775C /* mibenum.h */,
+				0BE358F517F4ED1E00E9775C /* utf16.h */,
+				0BE358F617F4ED1E00E9775C /* utf8.h */,
+			);
+			path = charset;
+			sourceTree = "<group>";
+		};
+		0BE358F917F4ED1E00E9775C /* input */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358FA17F4ED1E00E9775C /* inputstream.h */,
+			);
+			path = input;
+			sourceTree = "<group>";
+		};
+		0BE358FD17F4ED1E00E9775C /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BE358FE17F4ED1E00E9775C /* buffer.h */,
+				0BE358FF17F4ED1E00E9775C /* stack.h */,
+				0BE3590017F4ED1E00E9775C /* vector.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		0BE3590117F4ED1E00E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3590217F4ED1E00E9775C /* iphoneos */,
+				0BE3590617F4ED1E00E9775C /* iphonesimulator */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE3590217F4ED1E00E9775C /* iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3590317F4ED1E00E9775C /* libcss.a */,
+				0BE3590417F4ED1E00E9775C /* libparserutils.a */,
+				0BE3590517F4ED1E00E9775C /* libwapcaplet.a */,
+			);
+			path = iphoneos;
+			sourceTree = "<group>";
+		};
+		0BE3590617F4ED1E00E9775C /* iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3590717F4ED1E00E9775C /* libcss.a */,
+				0BE3590817F4ED1E00E9775C /* libparserutils.a */,
+				0BE3590917F4ED1E00E9775C /* libwapcaplet.a */,
+			);
+			path = iphonesimulator;
+			sourceTree = "<group>";
+		};
+		0BE3590A17F4ED1E00E9775C /* libsayori */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3590B17F4ED1E00E9775C /* include */,
+				0BE3591517F4ED1E00E9775C /* lib */,
+			);
+			path = libsayori;
+			sourceTree = "<group>";
+		};
+		0BE3590B17F4ED1E00E9775C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3590C17F4ED1E00E9775C /* Sayori.h */,
+				0BE3590D17F4ED1E00E9775C /* SYCssContext.h */,
+				0BE3590E17F4ED1E00E9775C /* SYFontManager.h */,
+				0BE3590F17F4ED1E00E9775C /* SYLabel.h */,
+				0BE3591017F4ED1E00E9775C /* SYTextLayout.h */,
+				0BE3591117F4ED1E00E9775C /* SYTextParser.h */,
+				0BE3591217F4ED1E00E9775C /* SYTextRun.h */,
+				0BE3591317F4ED1E00E9775C /* SYTextStyle.h */,
+				0BE3591417F4ED1E00E9775C /* SYTextSubstitutionGlyph.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		0BE3591517F4ED1E00E9775C /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3591617F4ED1E00E9775C /* Debug-iphoneos */,
+				0BE3591717F4ED1E00E9775C /* Debug-iphonesimulator */,
+				0BE3591817F4ED1E00E9775C /* Release-iphoneos */,
+				0BE3591917F4ED1E00E9775C /* Release-iphonesimulator */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0BE3591617F4ED1E00E9775C /* Debug-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3594117F4F0AB00E9775C /* libsayori.a */,
+			);
+			path = "Debug-iphoneos";
+			sourceTree = "<group>";
+		};
+		0BE3591717F4ED1E00E9775C /* Debug-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Debug-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		0BE3591817F4ED1E00E9775C /* Release-iphoneos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Release-iphoneos";
+			sourceTree = "<group>";
+		};
+		0BE3591917F4ED1E00E9775C /* Release-iphonesimulator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Release-iphonesimulator";
+			sourceTree = "<group>";
+		};
+		0BE3592017F4EFC800E9775C /* HMXML */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3592117F4EFC800E9775C /* HMBase64.h */,
+				0BE3592217F4EFC800E9775C /* HMBase64.m */,
+				0BE3592317F4EFC800E9775C /* HMXML.h */,
+				0BE3592417F4EFC800E9775C /* HMXMLDocument.h */,
+				0BE3592517F4EFC800E9775C /* HMXMLDocument.m */,
+				0BE3592617F4EFC800E9775C /* HMXMLElement.h */,
+				0BE3592717F4EFC800E9775C /* HMXMLElement.m */,
+				0BE3592817F4EFC800E9775C /* HMXMLNode.h */,
+				0BE3592917F4EFC800E9775C /* HMXMLNode.m */,
+				0BE3592A17F4EFC800E9775C /* HMXMLReader.h */,
+				0BE3592B17F4EFC800E9775C /* HMXMLReader.m */,
+				0BE3592C17F4EFC800E9775C /* HMXMLRPC.h */,
+				0BE3592D17F4EFC800E9775C /* HMXMLRPCDecoder.h */,
+				0BE3592E17F4EFC800E9775C /* HMXMLRPCDecoder.m */,
+				0BE3592F17F4EFC800E9775C /* HMXMLRPCEncoder.h */,
+				0BE3593017F4EFC800E9775C /* HMXMLRPCEncoder.m */,
+				0BE3593117F4EFC800E9775C /* HMXMLRPCRequest.h */,
+				0BE3593217F4EFC800E9775C /* HMXMLRPCRequest.m */,
+				0BE3593317F4EFC800E9775C /* HMXMLRPCStreamDecoder.h */,
+				0BE3593417F4EFC800E9775C /* HMXMLRPCStreamDecoder.m */,
+				0BE3593517F4EFC800E9775C /* HMXMLUtilities.h */,
+				0BE3593617F4EFC800E9775C /* HMXMLUtilities.m */,
+			);
+			path = HMXML;
+			sourceTree = "<group>";
+		};
+		0BE3594517F4F13300E9775C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BE3594617F4F14500E9775C /* libxml2.dylib */,
+				0BE3594317F4F12B00E9775C /* libiconv.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0BE357D717F4E4A400E9775C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BE357D817F4E4A400E9775C /* libsayori OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE357F317F4E4A400E9775C /* Build configuration list for PBXNativeTarget "libsayori OS X" */;
+			buildPhases = (
+				0BE357D517F4E4A400E9775C /* Sources */,
+				0BE357D617F4E4A400E9775C /* Frameworks */,
+				0BE357D717F4E4A400E9775C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libsayori OS X";
+			productName = "libsayori OS X";
+			productReference = 0BE357D917F4E4A400E9775C /* libsayori.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0BE3580817F4E5B000E9775C /* libsayori iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE3582717F4E5B100E9775C /* Build configuration list for PBXNativeTarget "libsayori iOS" */;
+			buildPhases = (
+				0BE3580517F4E5B000E9775C /* Sources */,
+				0BE3580617F4E5B000E9775C /* Frameworks */,
+				0BE3580717F4E5B000E9775C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libsayori iOS";
+			productName = "libsayori iOS";
+			productReference = 0BE3580917F4E5B000E9775C /* libsayori.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0BE3583C17F4E65000E9775C /* Sayori OS X */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE3586417F4E65000E9775C /* Build configuration list for PBXNativeTarget "Sayori OS X" */;
+			buildPhases = (
+				0BE3583917F4E65000E9775C /* Sources */,
+				0BE3583A17F4E65000E9775C /* Frameworks */,
+				0BE3583B17F4E65000E9775C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sayori OS X";
+			productName = "Sayori OS X";
+			productReference = 0BE3583D17F4E65000E9775C /* Sayori.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BE358A617F4EB4000E9775C /* Sayori iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BE358D517F4EB4000E9775C /* Build configuration list for PBXNativeTarget "Sayori iOS" */;
+			buildPhases = (
+				0BE358A317F4EB4000E9775C /* Sources */,
+				0BE358A417F4EB4000E9775C /* Frameworks */,
+				0BE358A517F4EB4000E9775C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sayori iOS";
+			productName = "Sayori iOS";
+			productReference = 0BE358A717F4EB4000E9775C /* Sayori iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BE3573B17F4CC4200E9775C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "HMDT CO., LTD.";
+			};
+			buildConfigurationList = 0BE3573E17F4CC4200E9775C /* Build configuration list for PBXProject "Sayori" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BE3573A17F4CC4200E9775C;
+			productRefGroup = 0BE3574417F4CC4200E9775C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BE357D817F4E4A400E9775C /* libsayori OS X */,
+				0BE3580817F4E5B000E9775C /* libsayori iOS */,
+				0BE3583C17F4E65000E9775C /* Sayori OS X */,
+				0BE358A617F4EB4000E9775C /* Sayori iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BE3583B17F4E65000E9775C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE3584417F4E65000E9775C /* InfoPlist.strings in Resources */,
+				0BE3585217F4E65000E9775C /* Images.xcassets in Resources */,
+				0BE3584A17F4E65000E9775C /* Credits.rtf in Resources */,
+				0BE3585017F4E65000E9775C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE358A517F4EB4000E9775C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE358BD17F4EB4000E9775C /* Main_iPad.storyboard in Resources */,
+				0BE358C217F4EB4000E9775C /* Images.xcassets in Resources */,
+				0BE358BA17F4EB4000E9775C /* Main_iPhone.storyboard in Resources */,
+				0BE358B117F4EB4000E9775C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BE357D517F4E4A400E9775C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE357F917F4E4ED00E9775C /* SYCssContext.m in Sources */,
+				0BE357FA17F4E4ED00E9775C /* SYFontManager.m in Sources */,
+				0BE357FB17F4E4ED00E9775C /* SYLabel.m in Sources */,
+				0BE357FC17F4E4ED00E9775C /* SYTextLayout.m in Sources */,
+				0BE357FD17F4E4ED00E9775C /* SYTextParser.m in Sources */,
+				0BE357FE17F4E4ED00E9775C /* SYTextRun.m in Sources */,
+				0BE357FF17F4E4ED00E9775C /* SYTextStyle.m in Sources */,
+				0BE3580017F4E4ED00E9775C /* SYTextSubstitutionGlyph.m in Sources */,
+				0BE3580117F4E4ED00E9775C /* NSIndexPathAddition.m in Sources */,
+				0BE3580217F4E4ED00E9775C /* NSValueAddition.m in Sources */,
+				0BE3580317F4E4ED00E9775C /* UIGeometry.m in Sources */,
+				0BE3580417F4E4ED00E9775C /* UIKitFunction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE3580517F4E5B000E9775C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE3582D17F4E5ED00E9775C /* SYCssContext.m in Sources */,
+				0BE3593817F4EFC800E9775C /* HMXMLDocument.m in Sources */,
+				0BE3593717F4EFC800E9775C /* HMBase64.m in Sources */,
+				0BE3593A17F4EFC800E9775C /* HMXMLNode.m in Sources */,
+				0BE3593C17F4EFC800E9775C /* HMXMLRPCDecoder.m in Sources */,
+				0BE3582E17F4E5ED00E9775C /* SYFontManager.m in Sources */,
+				0BE3593B17F4EFC800E9775C /* HMXMLReader.m in Sources */,
+				0BE3593E17F4EFC800E9775C /* HMXMLRPCRequest.m in Sources */,
+				0BE3593D17F4EFC800E9775C /* HMXMLRPCEncoder.m in Sources */,
+				0BE3582F17F4E5ED00E9775C /* SYLabel.m in Sources */,
+				0BE3583817F4E61900E9775C /* HMRuntimeUtil.m in Sources */,
+				0BE3583017F4E5ED00E9775C /* SYTextLayout.m in Sources */,
+				0BE3583117F4E5ED00E9775C /* SYTextParser.m in Sources */,
+				0BE3583217F4E5ED00E9775C /* SYTextRun.m in Sources */,
+				0BE3593917F4EFC800E9775C /* HMXMLElement.m in Sources */,
+				0BE3594017F4EFC800E9775C /* HMXMLUtilities.m in Sources */,
+				0BE3583317F4E5ED00E9775C /* SYTextStyle.m in Sources */,
+				0BE3583417F4E5ED00E9775C /* SYTextSubstitutionGlyph.m in Sources */,
+				0BE3593F17F4EFC800E9775C /* HMXMLRPCStreamDecoder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE3583917F4E65000E9775C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE3584D17F4E65000E9775C /* AppDelegate.m in Sources */,
+				0BE3584617F4E65000E9775C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BE358A317F4EB4000E9775C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BE358C017F4EB4000E9775C /* ViewController.m in Sources */,
+				0BE358B717F4EB4000E9775C /* AppDelegate.m in Sources */,
+				0BE358B317F4EB4000E9775C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BE3584217F4E65000E9775C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE3584317F4E65000E9775C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BE3584817F4E65000E9775C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE3584917F4E65000E9775C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0BE3584E17F4E65000E9775C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE3584F17F4E65000E9775C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0BE358AF17F4EB4000E9775C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE358B017F4EB4000E9775C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BE358B817F4EB4000E9775C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE358B917F4EB4000E9775C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0BE358BB17F4EB4000E9775C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BE358BC17F4EB4000E9775C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BE3577217F4CC4300E9775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0BE3577317F4CC4300E9775C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0BE357F417F4E4A400E9775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libsayori OS X/libsayori OS X-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/source/libcss/include",
+				);
+				PRODUCT_NAME = sayori;
+			};
+			name = Debug;
+		};
+		0BE357F517F4E4A400E9775C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libsayori OS X/libsayori OS X-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/source/libcss/include",
+				);
+				PRODUCT_NAME = sayori;
+			};
+			name = Release;
+		};
+		0BE3582817F4E5B100E9775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/libsayori_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libsayori iOS/libsayori iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/source/libcss/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = sayori;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0BE3582917F4E5B100E9775C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_ENABLE_MODULES = YES;
+				DSTROOT = /tmp/libsayori_iOS.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libsayori iOS/libsayori iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/source/libcss/include",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = sayori;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BE3586517F4E65000E9775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayori OS X/Sayori OS X-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libcss/include",
+				);
+				INFOPLIST_FILE = "Sayori OS X/Sayori OS X-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libcss/lib",
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libsayori/lib/$(BUILD-STYLE)",
+				);
+				PRODUCT_NAME = Sayori;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BE3586617F4E65000E9775C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayori OS X/Sayori OS X-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libcss/include",
+				);
+				INFOPLIST_FILE = "Sayori OS X/Sayori OS X-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libcss/lib",
+					"$(SRCROOT)/Sayori\\ OS\\ X/lib/libsayori/lib/$(BUILD-STYLE)",
+				);
+				PRODUCT_NAME = Sayori;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0BE358D617F4EB4000E9775C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayori iOS/Sayori iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libsayori/include",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libcss/include",
+				);
+				INFOPLIST_FILE = "Sayori iOS/Sayori iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libsayori/lib/$(BUILD_STYLE)-$(PLATFORM_NAME)",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libcss/lib/$(PLATFORM_NAME)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BE358D717F4EB4000E9775C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sayori iOS/Sayori iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libsayori/include",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libcss/include",
+				);
+				INFOPLIST_FILE = "Sayori iOS/Sayori iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libsayori/lib/$(BUILD_STYLE)-$(PLATFORM_NAME)",
+					"$(SRCROOT)/Sayori\\ iOS/lib/libcss/lib/$(PLATFORM_NAME)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BE3573E17F4CC4200E9775C /* Build configuration list for PBXProject "Sayori" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE3577217F4CC4300E9775C /* Debug */,
+				0BE3577317F4CC4300E9775C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BE357F317F4E4A400E9775C /* Build configuration list for PBXNativeTarget "libsayori OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE357F417F4E4A400E9775C /* Debug */,
+				0BE357F517F4E4A400E9775C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BE3582717F4E5B100E9775C /* Build configuration list for PBXNativeTarget "libsayori iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE3582817F4E5B100E9775C /* Debug */,
+				0BE3582917F4E5B100E9775C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BE3586417F4E65000E9775C /* Build configuration list for PBXNativeTarget "Sayori OS X" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE3586517F4E65000E9775C /* Debug */,
+				0BE3586617F4E65000E9775C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0BE358D517F4EB4000E9775C /* Build configuration list for PBXNativeTarget "Sayori iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BE358D617F4EB4000E9775C /* Debug */,
+				0BE358D717F4EB4000E9775C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BE3573B17F4CC4200E9775C /* Project object */;
+}
