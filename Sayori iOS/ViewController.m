@@ -19,7 +19,7 @@
     SYLabel*    label;
     label = [[SYLabel alloc] initWithFrame:self.view.bounds];
     label.html = @"<xhtml><body><p class=\"hello\">Hello Sayori!</p></body></xhtml>";
-    label.cssString = @"p.class { font-size: 24px; }";
+    label.cssString = @"p.hello { font-size: 24px; margin: 20px; }";
     label.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
     
     // Add label
