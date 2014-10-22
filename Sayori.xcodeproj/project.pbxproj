@@ -63,6 +63,34 @@
 		0BE3594217F4F0AB00E9775C /* libsayori.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594117F4F0AB00E9775C /* libsayori.a */; };
 		0BE3594417F4F12B00E9775C /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594317F4F12B00E9775C /* libiconv.dylib */; };
 		0BE3594717F4F14500E9775C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BE3594617F4F14500E9775C /* libxml2.dylib */; };
+		80691A2A19F66D3600FF7A10 /* computed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579417F4CD2500E9775C /* computed.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A2B19F66D3600FF7A10 /* errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579517F4CD2500E9775C /* errors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A2C19F66D3600FF7A10 /* font_face.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579617F4CD2500E9775C /* font_face.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A2D19F66D3600FF7A10 /* fpmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579717F4CD2500E9775C /* fpmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A2E19F66D3600FF7A10 /* functypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579817F4CD2500E9775C /* functypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A2F19F66D3600FF7A10 /* hint.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579917F4CD2500E9775C /* hint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A3019F66D3600FF7A10 /* libcss.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579A17F4CD2500E9775C /* libcss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A3119F66D3600FF7A10 /* properties.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579B17F4CD2500E9775C /* properties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A3219F66D3600FF7A10 /* select.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579C17F4CD2500E9775C /* select.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A3319F66D3600FF7A10 /* stylesheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579D17F4CD2500E9775C /* stylesheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80691A3419F66D3600FF7A10 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3579E17F4CD2500E9775C /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237A19F65AF600932B42 /* Sayori.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE357D417F4D03000E9775C /* Sayori.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237B19F65AF800932B42 /* SYCssContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3577C17F4CCBE00E9775C /* SYCssContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237C19F65AF900932B42 /* SYFontManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3577E17F4CCBE00E9775C /* SYFontManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237D19F65B1F00932B42 /* SYLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE357D117F4CFBB00E9775C /* SYLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237E19F65B1F00932B42 /* SYTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3578017F4CCBE00E9775C /* SYTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2237F19F65B1F00932B42 /* SYTextParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3578217F4CCBE00E9775C /* SYTextParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238019F65B1F00932B42 /* SYTextRun.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3578417F4CCBE00E9775C /* SYTextRun.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238119F65B1F00932B42 /* SYTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3578617F4CCBE00E9775C /* SYTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238219F65B1F00932B42 /* SYTextSubstitutionGlyph.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3578817F4CCBE00E9775C /* SYTextSubstitutionGlyph.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238319F65C9B00932B42 /* HMXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3592317F4EFC800E9775C /* HMXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238419F65CCB00932B42 /* HMXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3592417F4EFC800E9775C /* HMXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238519F65CCB00932B42 /* HMXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3592617F4EFC800E9775C /* HMXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238619F65CCB00932B42 /* HMXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3592817F4EFC800E9775C /* HMXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238719F65CCB00932B42 /* HMXMLReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3592A17F4EFC800E9775C /* HMXMLReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2238819F65CCB00932B42 /* HMXMLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3593517F4EFC800E9775C /* HMXMLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E2239F19F6623700932B42 /* HMUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE357C117F4CE3000E9775C /* HMUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80E223A019F6626100932B42 /* HMRuntimeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE3583617F4E61900E9775C /* HMRuntimeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -1010,6 +1038,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80E2237919F65AF000932B42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E2237A19F65AF600932B42 /* Sayori.h in Headers */,
+				80E2239F19F6623700932B42 /* HMUtil.h in Headers */,
+				80E223A019F6626100932B42 /* HMRuntimeUtil.h in Headers */,
+				80E2237B19F65AF800932B42 /* SYCssContext.h in Headers */,
+				80E2237C19F65AF900932B42 /* SYFontManager.h in Headers */,
+				80E2237D19F65B1F00932B42 /* SYLabel.h in Headers */,
+				80E2237E19F65B1F00932B42 /* SYTextLayout.h in Headers */,
+				80E2237F19F65B1F00932B42 /* SYTextParser.h in Headers */,
+				80E2238019F65B1F00932B42 /* SYTextRun.h in Headers */,
+				80E2238119F65B1F00932B42 /* SYTextStyle.h in Headers */,
+				80E2238219F65B1F00932B42 /* SYTextSubstitutionGlyph.h in Headers */,
+				80E2238319F65C9B00932B42 /* HMXML.h in Headers */,
+				80E2238419F65CCB00932B42 /* HMXMLDocument.h in Headers */,
+				80E2238519F65CCB00932B42 /* HMXMLElement.h in Headers */,
+				80E2238619F65CCB00932B42 /* HMXMLNode.h in Headers */,
+				80E2238719F65CCB00932B42 /* HMXMLReader.h in Headers */,
+				80E2238819F65CCB00932B42 /* HMXMLUtilities.h in Headers */,
+				80691A2A19F66D3600FF7A10 /* computed.h in Headers */,
+				80691A2B19F66D3600FF7A10 /* errors.h in Headers */,
+				80691A2C19F66D3600FF7A10 /* font_face.h in Headers */,
+				80691A2D19F66D3600FF7A10 /* fpmath.h in Headers */,
+				80691A2E19F66D3600FF7A10 /* functypes.h in Headers */,
+				80691A2F19F66D3600FF7A10 /* hint.h in Headers */,
+				80691A3019F66D3600FF7A10 /* libcss.h in Headers */,
+				80691A3119F66D3600FF7A10 /* properties.h in Headers */,
+				80691A3219F66D3600FF7A10 /* select.h in Headers */,
+				80691A3319F66D3600FF7A10 /* stylesheet.h in Headers */,
+				80691A3419F66D3600FF7A10 /* types.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -1037,6 +1100,7 @@
 				0BE3580517F4E5B000E9775C /* Sources */,
 				0BE3580617F4E5B000E9775C /* Frameworks */,
 				0BE3580717F4E5B000E9775C /* CopyFiles */,
+				80E2237919F65AF000932B42 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -1360,6 +1424,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/libsayori_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libsayori iOS/libsayori iOS-Prefix.pch";
@@ -1372,10 +1437,18 @@
 					"$(SRCROOT)/source/libcss/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/source/libcss/lib/iphoneos",
+					"$(PROJECT_DIR)/source/libcss/lib/iphonesimulator",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = sayori;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PROJECT_NAME}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
@@ -1384,6 +1457,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/libsayori_iOS.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "libsayori iOS/libsayori iOS-Prefix.pch";
@@ -1392,10 +1467,18 @@
 					"$(SRCROOT)/source/libcss/include",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/source/libcss/lib/iphoneos",
+					"$(PROJECT_DIR)/source/libcss/lib/iphonesimulator",
+					"$(DEVELOPER_DIR)/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = sayori;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/${PROJECT_NAME}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1544,6 +1627,7 @@
 				0BE357F517F4E4A400E9775C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BE3582717F4E5B100E9775C /* Build configuration list for PBXNativeTarget "libsayori iOS" */ = {
 			isa = XCConfigurationList;
@@ -1552,6 +1636,7 @@
 				0BE3582917F4E5B100E9775C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BE3586417F4E65000E9775C /* Build configuration list for PBXNativeTarget "Sayori OS X" */ = {
 			isa = XCConfigurationList;
@@ -1560,6 +1645,7 @@
 				0BE3586617F4E65000E9775C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0BE358D517F4EB4000E9775C /* Build configuration list for PBXNativeTarget "Sayori iOS" */ = {
 			isa = XCConfigurationList;
@@ -1568,6 +1654,7 @@
 				0BE358D717F4EB4000E9775C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
